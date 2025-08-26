@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CartController" stylesheets="@/Design.css" styleClass="root1" style="-fx-background-color: #f0f7;">
+    <top>
+        <VBox>
+            <ToolBar fx:id="customerToolBar">
+                <Button text="Back" onAction="#backClicked" styleClass="large-menu-button"/>
+                <Label text="Customer: " />
+                <TextField fx:id="customerField" promptText="Select customer" onMouseClicked="#openCustomerDialog"/>
+                <TextField fx:id="barcodeField" promptText="Enter barcode" visible="false"/>
+            </ToolBar>
+        </VBox>
+    </top>
+    <center>
+        <TableView fx:id="cartTable" styleClass="table-view" editable="true">
+            <columns>
+                <TableColumn fx:id="imageColumn" text="Image"/>
+                <TableColumn fx:id="idColumn" text="Item ID"/>
+                <TableColumn fx:id="nameColumn" text="Item Name"/>
+                <TableColumn fx:id="quantityColumn" text="Quantity" style="-fx-alignment: CENTER-RIGHT;"/>
+                <TableColumn fx:id="priceColumn" text="Price" style="-fx-alignment: CENTER-RIGHT;"/>
+                <TableColumn fx:id="discountColumn" text="Discount (%)" style="-fx-alignment: CENTER-RIGHT;" editable="true"/>
+                <TableColumn fx:id="totalColumn" text="Total" style="-fx-alignment: CENTER-RIGHT;"/>
+                <TableColumn fx:id="removeColumn" text="Remove"/>
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="20" style="-fx-padding: 10;">
+            <Label text="Total Price: " styleClass="title-label"/>
+            <Label fx:id="totalPriceLabel" text="0.00" styleClass="title-label"/>
+            <Button text="Open order" onAction="#checkoutClicked" styleClass="large-menu-button"/>
+        </HBox>
+    </bottom>
+</BorderPane>

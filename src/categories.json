@@ -1,0 +1,19 @@
+[ {
+  "name" : "Half-Automatic",
+  "imagePath" : "category1.jpg"
+}, {
+  "name" : "Stickers",
+  "imagePath" : "category2.jpg"
+}, {
+  "name" : "Breaker",
+  "imagePath" : "category3.jpg"
+}, {
+  "name" : "Terminals",
+  "imagePath" : "category5.jpg"
+}, {
+  "name" : "Contactors",
+  "imagePath" : "contactors.jpg"
+}, {
+  "name" : "motor protection",
+  "imagePath" : "motor protection.jpg"
+} ]

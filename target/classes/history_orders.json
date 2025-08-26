@@ -1,0 +1,134 @@
+[ {
+  "orderId" : "ORD1718216695716",
+  "customerID" : "2",
+  "customerName" : "Azmi Odeh",
+  "phoneNumber" : "0554490129",
+  "totalPrice" : 5.0,
+  "orderDate" : "2024-06-12",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 5.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1718216695716"
+}, {
+  "orderId" : "ORD1718258013795",
+  "customerID" : "1",
+  "customerName" : "Emilio Mattar",
+  "phoneNumber" : "0502304925",
+  "totalPrice" : 5.0,
+  "orderDate" : "2024-06-13",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 5.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1718258013795"
+}, {
+  "orderId" : "ORD1718346627017",
+  "customerID" : "4",
+  "customerName" : "mota morat",
+  "phoneNumber" : "0505009000",
+  "totalPrice" : 5.0,
+  "orderDate" : "2024-06-14",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 5.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1718346627017"
+},{
+  "orderId" : "ORD1718265752378",
+  "customerID" : "1",
+  "customerName" : "Emilio Mattar",
+  "phoneNumber" : "0502304925",
+  "totalPrice" : 4.5,
+  "orderDate" : "2024-06-13",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 4.5,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1718265752378"
+}, {
+  "orderId" : "ORD1718263856440",
+  "customerID" : "1",
+  "customerName" : "Emilio Mattar",
+  "phoneNumber" : "0502304925",
+  "totalPrice" : 5.0,
+  "orderDate" : "2024-06-13",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 5.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1718263856440"
+}, {
+  "orderId" : "ORD1719430574572",
+  "customerID" : "7",
+  "customerName" : "Azmi Odeh",
+  "phoneNumber" : "0546654079",
+  "totalPrice" : 25.0,
+  "orderDate" : "2024-06-26",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 5.0,
+    "price" : 5.0,
+    "total" : 25.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1719430574572"
+}, {
+  "orderId" : "ORD1719484098468",
+  "customerID" : "7",
+  "customerName" : "Azmi Odeh",
+  "phoneNumber" : "0546654079",
+  "totalPrice" : 3000.0,
+  "orderDate" : "2024-06-27",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 600.0,
+    "price" : 5.0,
+    "total" : 3000.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : "src/orders/ORD1719484098468"
+} ]

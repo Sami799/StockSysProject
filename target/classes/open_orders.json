@@ -1,0 +1,87 @@
+[ {
+  "orderId" : "ORD1718265999304",
+  "customerID" : "3",
+  "customerName" : "Sami Shihadi",
+  "phoneNumber" : "0502229900",
+  "totalPrice" : 8.0,
+  "orderDate" : "2024-06-13",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 2.0,
+    "price" : 5.0,
+    "total" : 8.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 20.0
+  } ],
+  "panelsImagesFolderPath" : null
+}, {
+  "orderId" : "ORD1718346943986",
+  "customerID" : "3",
+  "customerName" : "Sami Shihadi",
+  "phoneNumber" : "0502229900",
+  "totalPrice" : 5.0,
+  "orderDate" : "2024-06-14",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 1.0,
+    "price" : 5.0,
+    "total" : 5.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : null
+}, {
+  "orderId" : "ORD1718374878113",
+  "customerID" : "1",
+  "customerName" : "Emilio Mattar",
+  "phoneNumber" : "0502304925",
+  "totalPrice" : 1500.0,
+  "orderDate" : "2024-06-14",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 300.0,
+    "price" : 5.0,
+    "total" : 1500.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : null
+}, {
+  "orderId" : "ORD1719484019242",
+  "customerID" : "7",
+  "customerName" : "Azmi Odeh",
+  "phoneNumber" : "0546654079",
+  "totalPrice" : 1240.0,
+  "orderDate" : "2024-06-27",
+  "items" : [ {
+    "id" : "4016779605113",
+    "name" : "Half Automatic 1X10A",
+    "quantity" : 100.0,
+    "price" : 15.0,
+    "total" : 1200.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 20.0
+  }, {
+    "id" : "4016779605151",
+    "name" : "Half Automatic 1X16A",
+    "quantity" : 2.0,
+    "price" : 20.0,
+    "total" : 40.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "panelsImagesFolderPath" : null
+} ]

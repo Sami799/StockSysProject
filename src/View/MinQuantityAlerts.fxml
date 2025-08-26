@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@/Design.css" styleClass="root1" fx:controller="Controller.MinQuantityAlertsController">
+    <top>
+        <StackPane alignment="CENTER">
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 10;">
+                <Button text="Back" onAction="#homeClicked" styleClass="large-menu-button"/>
+                <Region HBox.hgrow="ALWAYS"/>
+            </HBox>
+            <Label alignment="CENTER" text="Items Low Stock" styleClass="title-label"/>
+        </StackPane>
+    </top>
+    <center>
+        <TableView fx:id="lowStockTable">
+            <columns>
+                <TableColumn fx:id="imageColumn" text="Image"/>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="nameColumn" text="Name"/>
+                <TableColumn fx:id="quantityColumn" text="Quantity"/>
+                <TableColumn fx:id="minQuantityColumn" text="Min Quantity"/>
+            </columns>
+        </TableView>
+
+    </center>
+</BorderPane>

@@ -1,0 +1,91 @@
+[ {
+  "goodsId" : "O1719432166537",
+  "supplierId" : "1",
+  "supplierName" : "Azmi odeh",
+  "phoneNumber" : "042501928",
+  "goodsDate" : "2024-06-26",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 884.0,
+    "price" : 5.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 20,
+    "discount" : 0.0
+  } ],
+  "documentsFolderPath" : null,
+  "currentQuantity" : "0",
+  "demandedQuantity" : "20"
+}, {
+  "goodsId" : "O1719480826396",
+  "supplierId" : "1",
+  "supplierName" : "Azmi odeh",
+  "phoneNumber" : "042501928",
+  "goodsDate" : "2024-06-27",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 884.0,
+    "price" : 5.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 20,
+    "discount" : 0.0
+  } ],
+  "documentsFolderPath" : null,
+  "currentQuantity" : "0",
+  "demandedQuantity" : "20"
+}, {
+  "goodsId" : "O1719483728178",
+  "supplierId" : "1",
+  "supplierName" : "Azmi odeh",
+  "phoneNumber" : "042501928",
+  "goodsDate" : "2024-06-27",
+  "items" : [ {
+    "id" : "4016779605151",
+    "name" : "Half Automatic 1X16A",
+    "quantity" : 1100.0,
+    "price" : 20.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 30,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605113",
+    "name" : "Half Automatic 1X10A",
+    "quantity" : 900.0,
+    "price" : 15.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 20,
+    "discount" : 0.0
+  } ],
+  "documentsFolderPath" : null,
+  "currentQuantity" : "0",
+  "demandedQuantity" : "50"
+}, {
+  "goodsId" : "O1721211396438",
+  "supplierId" : "2",
+  "supplierName" : "Speed",
+  "phoneNumber" : "0502304221",
+  "goodsDate" : "2024-07-17",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 380.0,
+    "price" : 5.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 50,
+    "discount" : 0.0
+  } ],
+  "documentsFolderPath" : null,
+  "currentQuantity" : "0",
+  "demandedQuantity" : "50"
+} ]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReceivingGoodsController" stylesheets="@/Design.css" styleClass="root1" style="-fx-background-color: #f0f7;">
+    <top>
+        <VBox>
+            <ToolBar fx:id="supplierToolBar">
+                <Button text="Back" onAction="#backClicked" styleClass="large-menu-button"/>
+                <Label text="Supplier: " />
+                <TextField fx:id="supplierField" promptText="Supplier details" editable="false"/>
+                <Label text="Goods ID: " />
+                <TextField fx:id="goodsIdField" promptText="Goods ID" editable="false"/>
+                <Label text="Barcode: " />
+                <TextField fx:id="barcodeField" promptText="Scan Barcode" onAction="#handleBarcodeInput"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button text="Refresh" onAction="#refreshPage" styleClass="large-menu-button"/>
+            </ToolBar>
+        </VBox>
+    </top>
+    <center>
+        <TableView fx:id="goodsTable" styleClass="table-view" editable="true">
+            <columns>
+                <TableColumn fx:id="imageColumn" text="Image"/>
+                <TableColumn fx:id="idColumn" text="Item ID"/>
+                <TableColumn fx:id="nameColumn" text="Item Name"/>
+                <TableColumn fx:id="quantityColumn" text="Quantity" style="-fx-alignment: CENTER-RIGHT;" editable="true"/>
+                <TableColumn fx:id="currentQuantityColumn" text="Current Quantity" style="-fx-alignment: CENTER-RIGHT;" editable="true"/>
+                <TableColumn fx:id="demandedQuantityColumn" text="Demanded Quantity" style="-fx-alignment: CENTER-RIGHT;"/>
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="20" style="-fx-padding: 10;">
+            <Label fx:id="totalQuantityLabel" text="Total Quantity: 0" styleClass="title-label"/>
+            <Button text="Update Goods" onAction="#receiveGoodsClicked" styleClass="large-menu-button"/>
+        </HBox>
+    </bottom>
+</BorderPane>

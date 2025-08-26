@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane fx:id="contentPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@/Design.css" styleClass="root2" style="-fx-background-color: #f0f4f7; -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: cover;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
+   <top>
+      <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
+         <Button fx:id="btnWorkers" text="Home Page" onAction="#homePageClicked" styleClass="large-menu-button"/>
+      </HBox>
+   </top>
+   <center>
+      <GridPane alignment="CENTER" hgap="10" vgap="20" style="-fx-padding: 20;">
+         <!--FullName Field-->
+         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0" fitWidth="40" fitHeight="40" preserveRatio="true">
+            <Image url="/Icons/user-icon.png"/>
+         </ImageView>
+         <TextField GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="PlayerFullName" prefHeight="50" prefWidth="300" promptText="Full Name" style="-fx-font-size: 18px;"/>
+         <!-- Email Field -->
+         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="1" fitWidth="40" fitHeight="40" preserveRatio="true">
+            <Image url="/Icons/email.png"/>
+         </ImageView>
+         <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="PlayerGmail" prefHeight="50" prefWidth="300" promptText="Email" style="-fx-font-size: 18px;"/>
+         <!-- Username Field -->
+         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="2" fitWidth="40" fitHeight="40" preserveRatio="true">
+            <Image url="/Icons/user-icon.png"/>
+         </ImageView>
+         <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="PlayerName" prefHeight="50" prefWidth="300" promptText="Username" style="-fx-font-size: 18px;"/>
+         <!-- Password Field -->
+         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="3" fitWidth="40" fitHeight="40" preserveRatio="true">
+            <Image url="@/Icons/password-icon.png"/>
+         </ImageView>
+         <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="passwordLogin" prefHeight="50" prefWidth="300" promptText="Password"/>
+         <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="visiblePassword" prefHeight="50" prefWidth="300" promptText="Password" style="-fx-font-size: 18px; -fx-visible: false; -fx-managed: false;"/>
+         <Button GridPane.columnIndex="2" GridPane.rowIndex="3" style="-fx-background-color: transparent;" onAction="#togglePasswordVisibility">
+            <graphic>
+               <ImageView fitWidth="30" fitHeight="30" preserveRatio="true">
+                  <Image url="@/Icons/view.png"/>
+               </ImageView>
+            </graphic>
+         </Button>
+         <!-- Confirm Password Field -->
+         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="4" fitWidth="40" fitHeight="40" preserveRatio="true">
+            <Image url="@/Icons/password-icon.png"/>
+         </ImageView>
+         <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="confirmPassword" prefHeight="50" prefWidth="300" promptText="Confirm Password"/>
+         <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="visibleConfirmPassword" prefHeight="50" prefWidth="300" promptText="Confirm Password" style="-fx-font-size: 18px; -fx-visible: false; -fx-managed: false;"/>
+         <!-- Confirm Password Visibility Toggle Button -->
+         <Button GridPane.columnIndex="2" GridPane.rowIndex="4" style="-fx-background-color: transparent;" onAction="#toggleConfirmPasswordVisibility">
+            <graphic>
+               <ImageView fitWidth="30" fitHeight="30" preserveRatio="true">
+                  <Image url="@/Icons/view.png"/>
+               </ImageView>
+            </graphic>
+         </Button>
+
+         <!-- Password Strength Labels in a Horizontal Layout -->
+         <HBox GridPane.columnIndex="1" GridPane.rowIndex="6" spacing="10">
+            <Label fx:id="labelMinChars" text="8+ characters" styleClass="password-label"/>
+            <Label fx:id="labelSpecialChar" text="Special Character" styleClass="password-label"/>
+            <Label fx:id="labelUpper" text="Uppercase" styleClass="password-label"/>
+            <Label fx:id="labelLower" text="Lowercase" styleClass="password-label"/>
+            <Label fx:id="labelDigit" text="Digit" styleClass="password-label"/>
+         </HBox>
+
+         <!-- Submit Button -->
+         <Button GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="SignUpSubmit" onAction="#SignUpSubmitClicked" text="Submit" styleClass="large-menu-button" GridPane.halignment="CENTER"/>
+      </GridPane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" spacing="20" style="-fx-background-color: transparent;">
+         <Label fx:id="clockLabel" style="-fx-font-size: 24px; -fx-text-fill: black; -fx-background-color: #D3D3D3; -fx-padding: 5; -fx-border-color: black; -fx-border-width: 1;"/>
+      </HBox>
+   </bottom>
+</BorderPane>

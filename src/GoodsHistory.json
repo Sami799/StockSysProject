@@ -1,0 +1,21 @@
+[ {
+  "goodsId" : "O1721210064537",
+  "supplierId" : "3",
+  "supplierName" : "Emilio Mattar",
+  "phoneNumber" : "0502304920",
+  "goodsDate" : "2024-07-17",
+  "items" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 280.0,
+    "price" : 5.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 50,
+    "demandedQuantity" : 50,
+    "discount" : 0.0
+  } ],
+  "documentsFolderPath" : "src/goods/O1721210064537",
+  "currentQuantity" : "50",
+  "demandedQuantity" : "50"
+} ]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StockOrderController" stylesheets="@/Design.css" styleClass="root1" style="-fx-background-color: #f0f7;">
+    <top>
+        <VBox>
+            <ToolBar fx:id="orderToolBar">
+                <Button text="Back" onAction="#backClicked" styleClass="large-menu-button"/>
+                <Label text="Order From Supplier: " />
+                <TextField fx:id="orderSupplierField" promptText="Select supplier" onMouseClicked="#openSupplierDialog"/>
+                <TextField fx:id="orderBarcodeField" promptText="Enter barcode" visible="true"/>
+            </ToolBar>
+        </VBox>
+    </top>
+    <center>
+        <TableView fx:id="orderGoodsTable" styleClass="table-view" editable="true">
+            <columns>
+                <TableColumn fx:id="orderImageColumn" text="Image"/>
+                <TableColumn fx:id="orderIdColumn" text="Item ID"/>
+                <TableColumn fx:id="orderNameColumn" text="Item Name"/>
+                <TableColumn fx:id="orderQuantityColumn" text="Quantity" style="-fx-alignment: CENTER-RIGHT;"/>
+                <TableColumn fx:id="orderDemandedQuantityColumn" text="Demanded Quantity" style="-fx-alignment: CENTER-RIGHT;" editable="true"/>
+                <TableColumn fx:id="orderRemoveColumn" text="Remove"/>
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="20" style="-fx-padding: 10;">
+            <Label fx:id="orderTotalQuantityLabel" text="Total Quantity: 0" styleClass="title-label"/>
+            <Button text="Place Order" onAction="#placeOrderClicked" styleClass="large-menu-button"/>
+        </HBox>
+    </bottom>
+</BorderPane>

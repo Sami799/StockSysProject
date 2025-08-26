@@ -1,0 +1,518 @@
+{
+  "Half-Automatic" : [ {
+    "id" : "4016779605113",
+    "name" : "Half Automatic 1X10A",
+    "quantity" : 200.0,
+    "price" : 15.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605151",
+    "name" : "Half Automatic 1X16A",
+    "quantity" : 1098.0,
+    "price" : 20.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605175",
+    "name" : "Half Automatic 1X20A",
+    "quantity" : 600.0,
+    "price" : 22.5,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605199",
+    "name" : "Half Automatic 1X25A",
+    "quantity" : 500.0,
+    "price" : 25.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605212",
+    "name" : "Half Automatic 1X32A",
+    "quantity" : 400.0,
+    "price" : 30.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605236",
+    "name" : "Half Automatic 1X40A",
+    "quantity" : 400.0,
+    "price" : 35.0,
+    "total" : 0.0,
+    "imagePath" : "category1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605359",
+    "name" : "Half Automatic 1X6NA",
+    "quantity" : 300.0,
+    "price" : 40.0,
+    "total" : 0.0,
+    "imagePath" : "Half-Automatic-2p.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605380",
+    "name" : "Half Automatic 1X10NA",
+    "quantity" : 400.0,
+    "price" : 45.0,
+    "total" : 0.0,
+    "imagePath" : "Half-Automatic-2p.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605427",
+    "name" : "Half Automatic 1X16NA",
+    "quantity" : 350.0,
+    "price" : 50.0,
+    "total" : 0.0,
+    "imagePath" : "Half-Automatic-2p.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605892",
+    "name" : "Half Automatic 3X6A",
+    "quantity" : 500.0,
+    "price" : 55.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605922",
+    "name" : "Half Automatic 3X10A",
+    "quantity" : 700.0,
+    "price" : 60.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605960",
+    "name" : "Half Automatic 3X16A",
+    "quantity" : 800.0,
+    "price" : 65.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779605984",
+    "name" : "Half Automatic 3X20A",
+    "quantity" : 520.0,
+    "price" : 70.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779606004",
+    "name" : "Half Automatic 3X25A",
+    "quantity" : 410.0,
+    "price" : 75.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779606028",
+    "name" : "Half Automatic 3X32A",
+    "quantity" : 670.0,
+    "price" : 80.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779606042",
+    "name" : "Half Automatic 3X40A",
+    "quantity" : 710.0,
+    "price" : 85.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779606066",
+    "name" : "Half Automatic 3X50A",
+    "quantity" : 530.0,
+    "price" : 90.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4016779606080",
+    "name" : "Half Automatic 3X63A",
+    "quantity" : 640.0,
+    "price" : 95.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "100054491204",
+    "name" : "X3314",
+    "quantity" : 290.0,
+    "price" : 50.0,
+    "total" : 14500.0,
+    "imagePath" : "background.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "Stickers" : [ {
+    "id" : "xyz",
+    "name" : "Danger sticker",
+    "quantity" : 380.0,
+    "price" : 5.0,
+    "total" : 0.0,
+    "imagePath" : "InCategory2.jpg",
+    "currentQuantity" : 97,
+    "demandedQuantity" : 100,
+    "discount" : 0.0
+  } ],
+  "Breaker" : [ {
+    "id" : "8015644012175",
+    "name" : "XT1 C 160 - R40",
+    "quantity" : 10.0,
+    "price" : 120.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644012199",
+    "name" : "XT1 C 160 - R63",
+    "quantity" : 190.0,
+    "price" : 130.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644695200",
+    "name" : "XT1 C 160 - R80",
+    "quantity" : 60.0,
+    "price" : 140.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644012915",
+    "name" : "XT1 C 160 - R100",
+    "quantity" : 23.0,
+    "price" : 150.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644012922",
+    "name" : "XT1 C 160 - R125",
+    "quantity" : 20.0,
+    "price" : 160.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644012939",
+    "name" : "XT1 C 160 - R160",
+    "quantity" : 53.0,
+    "price" : 170.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644007935",
+    "name" : "XT2 N 160 - R63",
+    "quantity" : 20.0,
+    "price" : 180.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644007942",
+    "name" : "XT2 N 160 - R100",
+    "quantity" : 20.0,
+    "price" : 190.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644007959",
+    "name" : "XT2 N 160 - R160",
+    "quantity" : 20.0,
+    "price" : 200.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "8015644019297",
+    "name" : "XT3 N 250 - R200",
+    "quantity" : 20.0,
+    "price" : 210.0,
+    "total" : 0.0,
+    "imagePath" : "category3.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "Terminals" : [ {
+    "id" : "1011007001",
+    "name" : "Blue 0.75-8mm",
+    "quantity" : 2000.0,
+    "price" : 100.0,
+    "total" : 0.0,
+    "imagePath" : "terminal0.75.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007002",
+    "name" : "Red 1-8mm",
+    "quantity" : 6997.0,
+    "price" : 200.0,
+    "total" : 0.0,
+    "imagePath" : "terminal1.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007003",
+    "name" : "Black 1.5-8mm",
+    "quantity" : 6500.0,
+    "price" : 300.0,
+    "total" : 0.0,
+    "imagePath" : "terminal1.5.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007004",
+    "name" : "Grey 2.5-8mm",
+    "quantity" : 7500.0,
+    "price" : 100.0,
+    "total" : 0.0,
+    "imagePath" : "terminal2.5.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007005",
+    "name" : "Orange 4-10mm",
+    "quantity" : 3500.0,
+    "price" : 200.0,
+    "total" : 0.0,
+    "imagePath" : "terminal4.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007006",
+    "name" : "Green 6-12mm",
+    "quantity" : 5499.0,
+    "price" : 300.0,
+    "total" : 0.0,
+    "imagePath" : "terminal6.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "1011007007",
+    "name" : "Brown 10-12mm",
+    "quantity" : 4000.0,
+    "price" : 400.0,
+    "total" : 0.0,
+    "imagePath" : "terminal10.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "Contactors" : [ {
+    "id" : "3471523110137",
+    "name" : "AF09-30-10-13",
+    "quantity" : 40.0,
+    "price" : 120.0,
+    "total" : 4800.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523110335",
+    "name" : "AF12-30-10-13",
+    "quantity" : 10.0,
+    "price" : 130.0,
+    "total" : 3250.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523110632",
+    "name" : "AF16-30-10-13",
+    "quantity" : 60.0,
+    "price" : 140.0,
+    "total" : 8400.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523110939",
+    "name" : "AF26-30-00-13",
+    "quantity" : 50.0,
+    "price" : 150.0,
+    "total" : 7500.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523111233",
+    "name" : "AF30-30-00-13",
+    "quantity" : 40.0,
+    "price" : 160.0,
+    "total" : 6400.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523111530",
+    "name" : "AF38-30-00-13",
+    "quantity" : 30.0,
+    "price" : 170.0,
+    "total" : 5100.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523132634",
+    "name" : "AF52-30-00-13",
+    "quantity" : 15.0,
+    "price" : 200.0,
+    "total" : 3000.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "3471523132931",
+    "name" : "AF80-30-00-13",
+    "quantity" : 8.0,
+    "price" : 250.0,
+    "total" : 2000.0,
+    "imagePath" : "contactors.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ],
+  "motor protection" : [ {
+    "id" : "4013614320309",
+    "name" : "MS116-2.5",
+    "quantity" : 20.0,
+    "price" : 50.0,
+    "total" : 1000.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4013614320316",
+    "name" : "MS116-4.0",
+    "quantity" : 40.0,
+    "price" : 55.0,
+    "total" : 2200.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4013614320323",
+    "name" : "MS116-6.3",
+    "quantity" : 30.0,
+    "price" : 60.0,
+    "total" : 1800.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4013614320330",
+    "name" : "MS116-10",
+    "quantity" : 20.0,
+    "price" : 60.0,
+    "total" : 1200.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4013614320347",
+    "name" : "MS116-16",
+    "quantity" : 16.0,
+    "price" : 70.0,
+    "total" : 1120.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  }, {
+    "id" : "4013614405655",
+    "name" : "MS116-20",
+    "quantity" : 14.0,
+    "price" : 80.0,
+    "total" : 1120.0,
+    "imagePath" : "motor protection.jpg",
+    "currentQuantity" : 0,
+    "demandedQuantity" : 0,
+    "discount" : 0.0
+  } ]
+}

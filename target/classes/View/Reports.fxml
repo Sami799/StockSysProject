@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@/Design.css" styleClass="root1" fx:controller="Controller.ReportsController">
+    <top>
+        <StackPane alignment="CENTER">
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 10;">
+                <Button text="Back" onAction="#handleBackToHome" styleClass="large-menu-button"/>
+                <Region HBox.hgrow="ALWAYS"/>
+            </HBox>
+            <Label alignment="CENTER" text="Sales Report Page" styleClass="title-label"/>
+        </StackPane>
+    </top>
+    <center>
+        <VBox spacing="30" alignment="CENTER" style="-fx-padding: 10;">
+            <HBox spacing="10" alignment="CENTER">
+                <Label text="From Date:" styleClass="labels"/>
+                <DatePicker fx:id="fromDatePicker"/>
+                <Label text="Till Date:" styleClass="labels"/>
+                <DatePicker fx:id="tillDatePicker"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER">
+                <Label text="Customer Name:" styleClass="labels"/>
+                <TextField fx:id="customerNameField"/>
+            </HBox>
+            <TableView fx:id="ordersTable" prefHeight="700.0" prefWidth="600.0" styleClass="table-view">
+                <columns>
+                    <TableColumn fx:id="orderIdColumn" text="Order ID" prefWidth="250"/>
+                    <TableColumn fx:id="customerNameColumn" text="Customer Name" prefWidth="250"/>
+                    <TableColumn fx:id="phoneNumberColumn" text="Phone Number" prefWidth="250"/>
+                    <TableColumn fx:id="totalPriceColumn" text="Total Price" prefWidth="250"/>
+                    <TableColumn fx:id="orderDateColumn" text="Order Date" prefWidth="250"/>
+                </columns>
+            </TableView>
+            <Label fx:id="totalPriceLabel" text="Total Price: " styleClass="labels" style="-fx-font-weight: bold"/>
+        </VBox>
+    </center>
+</BorderPane>

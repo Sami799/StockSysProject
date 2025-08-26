@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.OpenOrdersController" stylesheets="@/Design.css" styleClass="root1" style="-fx-background-color: #f0f4f7; -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: cover;" prefHeight="600.0" prefWidth="800.0">
+    <top>
+        <ToolBar>
+            <Button fx:id="BackBtn" text="Back" onAction="#backClicked" styleClass="large-menu-button"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Label text="Open Orders" styleClass="title-label" style="-fx-text-fill: #2C3E50"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <HBox spacing="20">
+                <CheckBox fx:id="sortByDateCheckBox" text="Sort by Date" onAction="#sortOrders" styleClass="check-box"/>
+                <CheckBox fx:id="sortByPriceCheckBox" text="Sort by Price" onAction="#sortOrders" styleClass="check-box"/>
+            </HBox>
+        </ToolBar>
+    </top>
+    <center>
+        <TableView fx:id="ordersTable" styleClass="table-view">
+            <columns>
+                <TableColumn fx:id="orderIdColumn" text="Order ID" />
+                <TableColumn fx:id="CustomerIDColumn" text="Customer ID"/>
+                <TableColumn fx:id="customerNameColumn" text="Customer Name" />
+                <TableColumn fx:id="phoneNumberColumn" text="Phone Number" />
+                <TableColumn fx:id="totalPriceColumn" text="Total Price" />
+                <TableColumn fx:id="orderDateColumn" text="Order Date" />
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox spacing="10" alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button text="Add Order" onAction="#addOrderClicked" styleClass="large-menu-button"/>
+            <Button text="Remove Order" onAction="#removeOrderClicked" styleClass="large-menu-button"/>
+        </HBox>
+    </bottom>
+</BorderPane>

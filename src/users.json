@@ -1,0 +1,20 @@
+[
+    {
+        "password": "admin",
+        "FullName": "Essam Odeh",
+        "email": "admin@gmail.com",
+        "username": "admin"
+    },
+    {
+        "password": "!Stocksys123",
+        "FullName": "Emilio Mattar",
+        "email": "emilio.mattar1@gmail.com",
+        "username": "Emilio1408"
+    },
+    {
+        "password": "!Stock123",
+        "FullName": "Sami Shahade",
+        "email": "samishhadi@gmail.com",
+        "username": "SamiSh13"
+    }
+]

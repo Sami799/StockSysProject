@@ -1,0 +1,237 @@
+/* General styles and categories */
+.root {
+    -fx-background-image: url('/Images/LoginBackground.jpg');
+    -fx-background-size: cover;
+}
+.root1 {
+    -fx-background-image: url('/Images/try.jpg');
+    -fx-background-size: cover;
+}
+.root2 {
+    -fx-background-image: url('/Images/workers.jpg');
+    -fx-background-size: cover;
+}
+.large-menu-button {
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-border-color: #34495E;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-min-width: 300px;
+    -fx-min-height: 100px;
+}
+.large-menu-button:hover {
+    -fx-background-color: #34495E;
+    -fx-text-fill: #E0E0E0;
+}
+.large-menu-button1 {
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-border-color: #34495E;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-min-width: 150px;
+    -fx-min-height: 50px;
+    -fx-margin: 10px;
+}
+.large-menu-button1:hover {
+    -fx-background-color: #34495E;
+    -fx-text-fill: #E0E0E0;
+}
+.login-button-custom-size {
+    -fx-min-width: 300px;
+    -fx-min-height: 60px;
+}
+.vbox {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+.custom-dialog-pane {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #b0b0b0;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+}
+.button-close {
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 15 25 15 25; /* Top, right, bottom, left */
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.table-view {
+    -fx-base: #2C3E50;
+    -fx-control-inner-background: #f0f4f7;
+    -fx-background-color: #2C3E50;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: #34495E;
+    -fx-padding: 5;
+    -fx-text-fill: white;
+}
+.table-view .column-header-background {
+    -fx-background-color: #34495E;
+}
+.table-view .table-row-cell {
+    -fx-background-color: #f0f4f7;
+    -fx-text-fill: #2C3E50;
+    -fx-border-color: #34495E;
+    -fx-selection-bar: #2C3E50;
+}
+.table-view .table-row-cell:selected {
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+}
+.table-view .table-cell {
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+}
+.table-view .column-header {
+    -fx-font-size: 26px;
+    -fx-text-fill: black;
+}
+.search-bar {
+    -fx-font-size: 18px;
+    -fx-padding: 10 15;
+    -fx-background-color: white;
+    -fx-border-color: #B0BEC5;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #424242;
+    -fx-prompt-text-fill: #B0BEC5;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 40px;
+}
+.search-bar:focused {
+    -fx-border-color: #42A5F5;
+    -fx-background-color: #E3F2FD;
+}
+.search-bar:hover {
+    -fx-border-color: #90A4AE;
+}
+.search-button {
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-border-color: #34495E;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-min-width: 120px;
+    -fx-min-height: 40px;
+    -fx-margin: 10px;
+}
+
+.title-label {
+    -fx-font-size: 50px;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.clock-label {
+    -fx-font-size: 24px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+    -fx-background-color: #D3D3D3;
+    -fx-padding: 5;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+.password-label {
+    -fx-text-fill: red;
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+/* Adjust category button and label styles */
+.category-button {
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.category-label {
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+}
+
+/* You might want to reduce the padding or margin if there's any applied to the container */
+.categories-container {
+    -fx-padding: 5 20 0 20; /* Adjusted padding to move the container up */
+}
+.check-box {
+    -fx-font-size: 20px;
+    -fx-padding: 5px 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.check-box:selected {
+    -fx-background-color: #0078d4;
+    -fx-border-color: #0078d4;
+    -fx-text-fill: white;
+}
+.check-box:hover {
+    -fx-background-color: #d4e4f7;
+}
+.labels{
+    -fx-font-size: 22px;
+    -fx-text-fill: black;
+}
+.textfields {
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+
+/*check box style*/
+
+.transparent-checkbox .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-width: 2px; /* Thicker border for better visibility */
+}
+
+.transparent-checkbox .box:selected {
+    -fx-background-color: #000000; /* Black background when selected */
+    -fx-border-color: #000000; /* Black border when selected */
+    -fx-background-insets: 0;
+    -fx-padding: 1;
+}
+
+.transparent-checkbox .box:hover {
+    -fx-border-color: #888888; /* Lighter gray on hover for better visibility */
+}
+
+.transparent-checkbox .box:focused {
+    -fx-border-color: #000000; /* Keep black border when focused */
+}
+
+.transparent-checkbox .box:selected .mark {
+    -fx-background-color: #ffffff; /* White check mark */
+}
+
+.transparent-checkbox {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-font-size: 50px; /* Larger font size */
+}

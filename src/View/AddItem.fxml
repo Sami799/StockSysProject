@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddItemController" stylesheets="@/Design.css" styleClass="root1" style="-fx-background-color: #f0f4f7; -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: cover;" prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <BorderPane>
+            <left>
+                <Button fx:id="btnBack" text="Back" onAction="#backClicked" styleClass="large-menu-button"/>
+            </left>
+        </BorderPane>
+    </top>
+    <center>
+        <GridPane alignment="CENTER" hgap="10" vgap="20" style="-fx-padding: 20;">
+            <!-- Item ID Field -->
+            <Label text="Item ID :" GridPane.columnIndex="0" GridPane.rowIndex="0" styleClass="labels"/>
+            <TextField fx:id="itemIdField" promptText="Enter Item ID" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="40" prefWidth="300" styleClass="textfields" />
+            <!-- Item Name Field -->
+            <Label text="Item Name :" GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="labels"/>
+            <TextField fx:id="itemNameField" promptText="Enter Item Name" GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="40" prefWidth="300" styleClass="textfields" />
+            <!-- Item Quantity Field -->
+            <Label text="Item Quantity :" GridPane.columnIndex="0" GridPane.rowIndex="2" styleClass="labels"/>
+            <TextField fx:id="itemQuantityField" promptText="Enter Item Quantity" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="40" prefWidth="300" styleClass="textfields" />
+            <!-- Item deadline quantity -->
+            <Label text="Item Deadline :" GridPane.columnIndex="0" GridPane.rowIndex="3" styleClass="labels"/>
+            <TextField fx:id="itemDeadlineField" promptText="Enter deadline Quantity" GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="40" prefWidth="300" styleClass="textfields" />
+            <!-- Item Price Field -->
+            <Label text="Item Price :" GridPane.columnIndex="0" GridPane.rowIndex="4" styleClass="labels"/>
+            <TextField fx:id="itemPriceField" promptText="Enter Item Price" GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="40" prefWidth="300" styleClass="textfields"/>
+            <!-- Upload Image Button -->
+            <Label text="Upload Image :" GridPane.columnIndex="0" GridPane.rowIndex="5" styleClass="labels"/>
+            <Button fx:id="uploadButton" text="Upload Image" styleClass="search-button" onAction="#uploadImage" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+            <!-- File Label -->
+            <Label fx:id="fileLabel" text="No file selected" GridPane.columnIndex="1" GridPane.rowIndex="6" styleClass="labels"/>
+            <!-- Add Item Button -->
+            <Button text="Add Item" onAction="#addItemClicked" styleClass="search-button" GridPane.columnIndex="1" GridPane.rowIndex="7" GridPane.halignment="CENTER"/>
+        </GridPane>
+    </center>
+</BorderPane>
