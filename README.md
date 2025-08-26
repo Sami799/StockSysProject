@@ -21,9 +21,3 @@ It was developed to support managers in handling regions, members, and deliverie
 - `resources/` → CSS, images, and JSON files for storage  
 - `pom.xml` → Maven configuration  
 - `StockSys_User_Manual.pdf` → Detailed usage manual  
-
-## 🔧 Installation & Setup
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/yourusername/StockSys.git
-   cd StockSys
